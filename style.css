@@ -76,22 +76,41 @@ header {
     align-items: center;
 }
 
-.title {
+.container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    padding: 0px;
+    position: absolute;
+    width: 732px;
+    height: 227px;
+    left: 821px;
+    top: 248px;
 }
 
-.title1 { 
-    margin-top: 248px;
+.title {
     margin-left: 821px;
-    color: #ffffff;
-    font-weight: 700;
+    margin-top: 248px;
     font-size: 44px;
+    width: 732px;
+    height: 53px;
+    font-weight: 700px;
     line-height: 53px;
-    align-items: center;
     display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.headphone {
+    margin-left: 821px;
+    margin-top: auto;
+    font-size: 88px;
+    font-style: normal;
+    line-height: 106px;
+    display: flex;
+    align-items: center;
+    color: #F5C90A;
 }
 
 .main {
@@ -104,13 +123,6 @@ header {
     flex-direction: column;
 }
 
-h2 {
-    color:#F9C05F;
-    font-weight: 700;
-    font-size: 88px;
-    line-height: 106.5px;
-
-}
 
 h4 {
     font-weight: 400;
@@ -118,5 +130,7 @@ h4 {
     line-height: 73px;
     color: #ffffff;
     display: flex;
-    transform: scale(1.1.5);
+    margin-top: 301px;
 }
+
+
